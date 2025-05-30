@@ -15,7 +15,7 @@ function Home() {
     <div className="bg-background min-h-screen">
       {/* Navigation */}
       <header className="container mx-auto py-6 px-4 md:px-6 flex justify-between items-center">
-        <div className="text-xl font-bold">John Doe</div>
+        <div className="text-xl font-bold">Braulio Otavalo</div>
         <div className="hidden md:flex space-x-6">
           <a href="#about" className="hover:text-primary transition-colors">
             About
@@ -102,7 +102,7 @@ function Home() {
           </p>
           <div className="flex space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/beotavalo"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -111,7 +111,7 @@ function Home() {
               </Button>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/botavalo/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -119,7 +119,7 @@ function Home() {
                 <Linkedin className="h-5 w-5" />
               </Button>
             </a>
-            <a href="mailto:contact@example.com">
+            <a href="mailto:braulio.otavalo@gmail.com">
               <Button variant="outline" size="icon">
                 <Mail className="h-5 w-5" />
               </Button>
@@ -129,8 +129,8 @@ function Home() {
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
             <img
-              src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&q=80"
-              alt="John Doe"
+              src="public/images/botavalo.jpg"
+              alt="Braulio Otavalo"
               className="w-full h-full object-cover"
             />
           </div>
@@ -155,25 +155,27 @@ function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">
-                  Image Classification System
+                  Loan Eligibility Prediction
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Deep learning model for real-time image classification with
-                  98% accuracy on benchmark datasets.
+                  This project proposes a Machine Learning (ML) model to automate and enhance the loan eligibility prediction process. The model will learn from historical loan data, identifying patterns differentiating approved and rejected loan applications.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
-                    PyTorch
+                    Python
                   </span>
                   <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
-                    CNN
+                    scikit-learn
                   </span>
                   <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
-                    Transfer Learning
+                    Docker
+                  </span>
+                  <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
+                    AWS
                   </span>
                 </div>
                 <a
-                  href="#"
+                  href="https://github.com/beotavalo/loan-elegibility-prediction"
                   className="inline-flex items-center text-sm font-medium text-primary hover:underline"
                 >
                   View Project <ExternalLink className="ml-1 h-4 w-4" />
@@ -186,27 +188,32 @@ function Home() {
               <div className="h-48 bg-muted-foreground/10 flex items-center justify-center">
                 <img
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&q=80"
-                  alt="Data Visualization"
+                  alt="Generative AI"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">
-                  Predictive Analytics Platform
+                  Generative AI - Chatbot
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  End-to-end solution for time series forecasting with
-                  interactive visualizations and anomaly detection.
+                  The project involves developing a Retrieval-Augmented Generation (RAG) system with a Large Language Model (LLM) for a FAQ system intended for ACME, a company specializing in Surveying, Mapping, Remote Sensing, and GIS..
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
-                    TensorFlow
+                    LLM
                   </span>
                   <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
-                    LSTM
+                    Embeddings
                   </span>
                   <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
-                    React
+                    PyTorch
+                  </span>
+                  <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
+                    Vector Databases
+                  </span>
+                  <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded">
+                    LangChain
                   </span>
                 </div>
                 <a
@@ -254,6 +261,7 @@ function Home() {
                 </a>
               </div>
             </div>
+            
           </div>
         </div>
       </section>
@@ -268,12 +276,12 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Machine Learning */}
             <div>
-              <h3 className="text-xl font-bold mb-6">Machine Learning</h3>
+              <h3 className="text-xl font-bold mb-6">Artificial Intelligence</h3>
               <div className="space-y-4">
-                <SkillBar skill="Deep Learning" proficiency={95} />
-                <SkillBar skill="Computer Vision" proficiency={90} />
+                <SkillBar skill="Machine Learning" proficiency={90} />
+                <SkillBar skill="Deep Learning" proficiency={90} />
                 <SkillBar
-                  skill="Natural Language Processing"
+                  skill="Generative AI"
                   proficiency={85}
                 />
                 <SkillBar skill="Reinforcement Learning" proficiency={75} />
@@ -284,10 +292,10 @@ function Home() {
             <div>
               <h3 className="text-xl font-bold mb-6">Programming</h3>
               <div className="space-y-4">
-                <SkillBar skill="Python" proficiency={98} />
-                <SkillBar skill="TensorFlow/PyTorch" proficiency={92} />
-                <SkillBar skill="SQL" proficiency={85} />
-                <SkillBar skill="JavaScript/React" proficiency={80} />
+                <SkillBar skill="Python" proficiency={90} />
+                <SkillBar skill="TensorFlow/PyTorch" proficiency={75} />
+                <SkillBar skill="SQL" proficiency={60} />
+                <SkillBar skill="JavaScript/React" proficiency={50} />
               </div>
             </div>
 
@@ -295,10 +303,10 @@ function Home() {
             <div>
               <h3 className="text-xl font-bold mb-6">Data Science</h3>
               <div className="space-y-4">
-                <SkillBar skill="Data Analysis" proficiency={95} />
-                <SkillBar skill="Feature Engineering" proficiency={90} />
-                <SkillBar skill="Statistical Modeling" proficiency={85} />
-                <SkillBar skill="A/B Testing" proficiency={80} />
+                <SkillBar skill="Data Analysis" proficiency={90} />
+                <SkillBar skill="Feature Engineering" proficiency={80} />
+                <SkillBar skill="Statistical Modeling" proficiency={80} />
+                <SkillBar skill="A/B Testing" proficiency={60} />
               </div>
             </div>
 
@@ -306,10 +314,10 @@ function Home() {
             <div>
               <h3 className="text-xl font-bold mb-6">Tools & Platforms</h3>
               <div className="space-y-4">
-                <SkillBar skill="Docker/Kubernetes" proficiency={85} />
+                <SkillBar skill="Docker/Kubernetes" proficiency={75} />
                 <SkillBar skill="AWS/GCP" proficiency={80} />
                 <SkillBar skill="MLOps" proficiency={75} />
-                <SkillBar skill="Git/CI/CD" proficiency={90} />
+                <SkillBar skill="Git/CI/CD" proficiency={80} />
               </div>
             </div>
           </div>
@@ -328,14 +336,14 @@ function Home() {
             <div className="relative">
               <div className="absolute -left-10 mt-1.5 h-6 w-6 rounded-full border-4 border-primary bg-background"></div>
               <h3 className="text-xl font-bold">
-                Senior Machine Learning Engineer
+                AI Tech Lead
               </h3>
               <p className="text-primary font-medium">
-                TechCorp AI | 2021 - Present
+                Awana | Aug 2024 - Present
               </p>
               <p className="mt-3 text-muted-foreground">
-                Led a team of 5 engineers in developing computer vision
-                solutions for autonomous systems. Improved model accuracy by 35%
+                Led a team of 5 engineers in developing ml, generative AI, computer vision
+                solutions for different industries. Improved model accuracy by 35%
                 and reduced inference time by 60% through architecture
                 optimization.
               </p>
@@ -355,9 +363,9 @@ function Home() {
             {/* Experience 2 */}
             <div className="relative">
               <div className="absolute -left-10 mt-1.5 h-6 w-6 rounded-full border-4 border-primary bg-background"></div>
-              <h3 className="text-xl font-bold">Machine Learning Engineer</h3>
+              <h3 className="text-xl font-bold">ML Engineer</h3>
               <p className="text-primary font-medium">
-                DataInnovate | 2018 - 2021
+                OA7 | 2018 - 2024
               </p>
               <p className="mt-3 text-muted-foreground">
                 Designed and implemented NLP models for sentiment analysis and
@@ -380,9 +388,9 @@ function Home() {
             {/* Experience 3 */}
             <div className="relative">
               <div className="absolute -left-10 mt-1.5 h-6 w-6 rounded-full border-4 border-primary bg-background"></div>
-              <h3 className="text-xl font-bold">Data Scientist</h3>
+              <h3 className="text-xl font-bold">Data Scientist - STC</h3>
               <p className="text-primary font-medium">
-                AnalyticsPro | 2016 - 2018
+                World Bank Group | Feb 2024 - Jun 2024
               </p>
               <p className="mt-3 text-muted-foreground">
                 Developed predictive models for customer churn and lifetime
@@ -420,32 +428,32 @@ function Home() {
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 mr-3 text-primary" />
                   <a
-                    href="mailto:contact@example.com"
+                    href="mailto:braulio.otavalo@gmail.com"
                     className="hover:text-primary transition-colors"
                   >
-                    contact@example.com
+                    email
                   </a>
                 </div>
                 <div className="flex items-center">
                   <Github className="h-5 w-5 mr-3 text-primary" />
                   <a
-                    href="https://github.com"
+                    href="https://github.com/beotavalo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
                   >
-                    github.com/johndoe
+                    Github
                   </a>
                 </div>
                 <div className="flex items-center">
                   <Linkedin className="h-5 w-5 mr-3 text-primary" />
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/botavalo/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
                   >
-                    linkedin.com/in/johndoe
+                    Linkedin
                   </a>
                 </div>
               </div>
@@ -497,24 +505,24 @@ function Home() {
       <footer className="bg-muted py-8">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} botavalo. All rights reserved.
           </p>
           <div className="flex justify-center space-x-4 mt-4">
             <a
-              href="https://github.com"
+              href="https://github.com/beotavalo"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Github className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/botavalo/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
-            <a href="mailto:contact@example.com">
+            <a href="mailto:braulio.otavalo@gmail.com">
               <Mail className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
           </div>

@@ -1,0 +1,31 @@
+# Treat all files as text and auto normalize line endings
+* text=auto
+
+# Explicitly declare text files
+*.js     text
+*.ts     text
+*.tsx    text
+*.jsx    text
+*.json   text
+*.html   text
+*.css    text
+*.md     text
+*.yml    text
+*.yaml   text
+*.env    text
+*.gitignore text
+*.gitattributes text
+
+# Declare binary files (avoid line ending conversions)
+*.svg   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.mp4   binary
+*.mov   binary
+*.pdf   binary

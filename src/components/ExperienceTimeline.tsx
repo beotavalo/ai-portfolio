@@ -141,10 +141,10 @@ const ExperienceTimeline = ({
 const defaultExperiences: Experience[] = [
   {
     id: "1",
-    company: "TechAI Solutions",
+    company: "World Bank Group",
     position: "Senior Machine Learning Engineer",
     duration: "Jan 2021 - Present",
-    location: "San Francisco, CA",
+    location: "Remote",
     description:
       "Leading the development of advanced machine learning models for computer vision applications. Responsible for the full ML lifecycle from research to production deployment.",
     achievements: [

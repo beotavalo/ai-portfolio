@@ -22,10 +22,10 @@ interface ContactSectionProps {
 }
 
 const ContactSection = ({
-  email = "contact@example.com",
-  github = "https://github.com/yourusername",
-  linkedin = "https://linkedin.com/in/yourusername",
-  twitter = "https://twitter.com/yourusername",
+  email = "braulio.otavalo@gmail.com",
+  github = "https://github.com/beotavalo",
+  linkedin = "https://linkedin.com/in/botavalo",
+  twitter = "https://x.com/BraulioOtavalo",
 }: ContactSectionProps) => {
   const [formState, setFormState] = useState({
     name: "",
